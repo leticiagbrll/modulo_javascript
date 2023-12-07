@@ -49,7 +49,7 @@ function calcularMedia() {
     document.getElementById("situacaoAluno").innerHTML = mensagem;
 }
 
-function limparCamposProjeto1() {
+function limparCamposProjeto2() {
   var camposProjeto1 = document.querySelectorAll('#projeto2 input[type="number"]');
   camposProjeto1.forEach(function (campo) {
       campo.value = '';
