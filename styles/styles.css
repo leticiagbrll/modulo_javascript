@@ -1,0 +1,230 @@
+
+body {
+background-color: #008080;
+color: #000000;
+font-size: 1.1em;
+font-family: "MS Sans Serif",Tahoma,Verdana,sans-serif; ;
+width: 100%;
+overflow-x: hidden;
+margin: 0;
+line-height: 30px;
+}
+
+h1 {
+text-align: center;
+font-size: 3.5rem;
+color: #FFFFFF;
+font-weight: 300;
+}
+
+h3 {
+text-align: center;
+color: #FFFFFF;
+}
+
+h2 {
+display: block;
+white-space: nowrap;
+flex-flow: row nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+font-weight: bold;
+justify-content: space-between;
+width: 100%;
+color: #FFFFFF;
+background: -webkit-linear-gradient(left,#08216b,#a5cef7);
+padding-top: 2px;
+padding-bottom: 1px;
+text-align: left;
+margin: 0px 2px 1px 0px;
+}
+
+main {
+margin: 40px;
+}
+
+p {
+text-align: "left";
+font-size: 1.25rem;
+font-weight: 300;
+color: #FFFFFF
+}
+
+section {
+border: 2px solid;
+border-bottom-color: #424242;
+border-right-color: #424242;
+border-left-color: #FFFFFF;
+border-top-color: #FFFFFF;
+background-color: #c0c0c0;
+margin-bottom: 30px;
+color: #212529;
+width: 50%;
+box-shadow: 0.5px 0.5px 0 0.5px #000000 
+inset 1px 1px #C2C6CA, inset -1px -1px #85898d, inset 2px 2px white;
+}
+
+button {
+height: 36px;
+
+}
+
+#projeto1, #projeto2 {
+padding: 0px 0px;
+line-height: auto
+}
+
+#formulario {
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+}
+
+#notas {
+display: flex;
+width: 100%;
+justify-content: space-around;
+}
+
+#btnSituacao {
+width: 300px;
+border-width: 2px;
+border-style: outset;
+border-right-color: #424242;
+border-bottom-color: #424242;
+background: silver;
+color: black;
+border-radius: 1px;
+cursor: pointer;
+transition: all 0.1s;
+}
+
+.buttonSituacao:active {
+border-style: inset;
+background: #a5a5a5;
+}
+
+#content {
+display: flex;
+gap: 20px;
+margin-top: 50px;
+}
+
+#contentCalcMedias {
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 30px;
+}
+
+.nota {
+display: flex;
+flex-direction: column;
+}
+
+.inputCalc {
+width: 110px;
+height: 30px;
+margin-left: 5px;
+border: 2px inset #d5d5d5;
+color: #424242;
+background: #FFFFFF;
+box-shadow: -1px -1px 0 0 #828282
+}
+
+.buttonCalc {
+width: 110px;
+border-width: 2px;
+border-style: outset;
+border-right-color: #424242;
+border-bottom-color: #424242;
+background: silver;
+color: black;
+border-radius: 1px;
+cursor: pointer;
+transition: all 0.1s;
+}
+
+.buttonCalc:active {
+border-style: inset;
+background: #a5a5a5;
+}
+
+.buttonLimpar {
+width: 110px;
+height: 36px;
+border: 2px outset;
+border-right-color: #424242;
+border-bottom-color: #424242;
+background: silver;
+color: black;
+border-radius: 1px;
+margin-top: 10px;
+margin-bottom: 10px;
+margin-left: 5px;
+cursor: pointer;
+transition: background-color 0.3s, border-style 0.3s;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.buttonLimpar img {
+margin-right: 5px;
+}
+
+.buttonLimpar:active {
+border-style: inset;
+background: #a5a5a5;
+}
+
+.buttonLimpar:hover {
+background: #c0c0c0;  /* Cor de fundo ao passar o mouse */
+}
+
+.resultado {
+margin-top: 0;
+margin-left: 5px;
+color: #212529;
+}
+
+.inputNota{
+width: 80px;
+height: 36px;
+border: 2px inset #d5d5d5;
+color: #424242;
+background: #FFFFFF;
+box-shadow: -1px -1px 0 0 #828282
+}
+
+#rodape {
+cursor: default;
+width: 100%;
+background-color: silver;
+margin: 16px 0 0 0;
+padding: 0 8px;
+position: static;
+align-items: baseline;
+bottom: 0;
+border-top: 2px outset #fff;
+z-index: 228;
+margin-right: 0%;
+bottom: 0;
+flex: 1 0 auto;
+}
+
+.botao-rodape {
+cursor: default;
+display: inline-block;
+border: 1px outset #fff;
+padding: 0 0 0 2px;
+box-shadow: 1px 1px #000;
+margin-bottom: 2px;
+font-size: 14px;
+color: #000000;
+text-decoration: none
+}
+
+
+
+
